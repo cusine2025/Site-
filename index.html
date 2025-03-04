@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messie Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header data-aos="fade-down">
+        <div class="logo">
+            <a href="https://www.facebook.com/profile.php?id=61564382117276" class="button">Auteur</a>
+            <h1 style="margin: 30px;">Messie Chatbot</h1>
+        </div>
+    </header>
+    <main data-aos="fade-left">
+        <div class="chat-container" id="chat-box">
+            <!-- Messages will appear here -->
+        </div>
+    </main>
+    <footer>
+        <input type="text" id="user-input" placeholder="Écrivez votre question...">
+        <button id="send-btn">➤</button>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800 });
+    </script>
+</body>
+</html>
